@@ -2,8 +2,20 @@
 	height:100px;
 	width:100px;
 
+	animation: leaf 10s infinite linear;
 	-webkit-animation: leaf 10s infinite linear;
-	-moz-animation: leaf 10s infinite linear;
+}
+
+@keyframes leaf {	
+	0% {
+		transform: translate(0, 0px) rotateZ(0deg);
+	}
+	75% {	
+		transform: translate(500px, 300px) rotateZ(270deg);
+	}
+	100% {	
+		transform: translate(50px, 400px) rotateZ(360deg);
+	}
 }
 
 @-webkit-keyframes leaf {
@@ -11,9 +23,9 @@
 		-webkit-transform: translate(0, 0px) rotateZ(0deg);
 	}
 	75% {	
-		-webkit-transform: translate(100px, 600px) rotateZ(270deg);
+		-webkit-transform: translate(500px, 300px) rotateZ(270deg);
 	}
 	100% {	
-		-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+		-webkit-transform: translate(50px, 400px) rotateZ(360deg);
 	}
 }
