@@ -9,45 +9,45 @@
 @keyframes leaf {	
 	0% {
 		transform: translate(400px, 0px) rotateZ(0deg);
-		animation-timing-function: cubic-bezier(0,0,0,0);
+		animation-timing-function: cubic-bezier(0,.5,.5,1);
 	}
 	25% {	
-		transform: translate(600px, 100px) rotateZ(72deg);
-		animation-timing-function: cubic-bezier(.5,0,0,0);
+		transform: translate(500px, 100px) rotateZ(72deg);
+		animation-timing-function: cubic-bezier(0,.125,.875,1);
 	}
 	50% {	
-		transform: translate(200px, 200px) rotateZ(144deg);
-		animation-timing-function: cubic-bezier(.75,0,0,0);
+		transform: translate(300px, 200px) rotateZ(144deg);
+		animation-timing-function: cubic-bezier(0,.0625,.9375,1);
 	}
 	75% {	
-		transform: translate(600px, 300px) rotateZ(216deg);
-		animation-timing-function: cubic-bezier(.875,0,0,0);
+		transform: translate(500px, 300px) rotateZ(216deg);
+		animation-timing-function: cubic-bezier(0,.03125,.96875,1);
 	}
 	100% {	
-		transform: translate(400px, 400px) rotateZ(360deg);
-		animation-timing-function: cubic-bezier(1,0,0,0);
+		transform: translate(300px, 400px) rotateZ(360deg);
+		animation-timing-function: cubic-bezier(0,0,1,1);
 	}
 }
 
 @-webkit-keyframes leaf {
 	0% {
 		-webkit-transform: translate(400px, 0px) rotateZ(0deg);
-		-webkit-animation-timing-function: cubic-bezier(0,0,1,1);
+		-webkit-animation-timing-function: cubic-bezier(0,.5,.5,1);
 	}
 	25% {	
 		-webkit-transform: translate(600px, 100px) rotateZ(72deg);
-		-webkit-animation-timing-function: cubic-bezier(.5,0,1,1);
+		-webkit-animation-timing-function: cubic-bezier(0,.125,.875,1);
 	}	
 	50% {	
 		-webkit-transform: translate(200px, 200px) rotateZ(144deg);
-		-webkit-animation-timing-function: cubic-bezier(.75,0,1,1);
+		-webkit-animation-timing-function: cubic-bezier(0,.0625,.9375,1);
 	}
 	75% {	
-		-webkit-transform: translate(600px, 300px) rotateZ(216deg);
-		-webkit-animation-timing-function: cubic-bezier(.875,0,1,1);
+		-webkit-transform: translate(500px, 300px) rotateZ(216deg);
+		-webkit-animation-timing-function: cubic-bezier(0,.03125,.96875,1);
 	}
 	100% {	
 		-webkit-transform: translate(400px, 400px) rotateZ(360deg);
-		-webkit-animation-timing-function: cubic-bezier(1,0,1,1);
+		-webkit-animation-timing-function: cubic-bezier(0,0,1,1);
 	}
 }
