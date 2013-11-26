@@ -3,13 +3,18 @@
 	width:100px;
 
 	background:#000;
+	position:relative;
 }
 #leaf {
 	height:100px;
 	width:100px;
 
+	position:relative;
+
+	/*
 	animation: leaf 10s infinite;
 	-webkit-animation: leaf 10s infinite;
+	*/
 }
 
 @keyframes leaf {	
