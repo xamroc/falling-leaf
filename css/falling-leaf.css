@@ -10,8 +10,10 @@
 	width:100px;
 
 	position:relative;
+	left:50%;
 
-	/*
+	/* CSS3 animation using cubic-bezier curve. CSSis best used because it is native and uses less resources. Unfortunately, this approach did not move forward because of difficulties to make curves.
+
 	animation: leaf 10s infinite;
 	-webkit-animation: leaf 10s infinite;
 	*/
